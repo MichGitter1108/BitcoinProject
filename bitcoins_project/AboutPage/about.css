@@ -1,0 +1,65 @@
+body, html
+{
+    background-image: url('../background.jpg');
+    font-family: 'Klee One', cursive;
+}
+
+img
+{
+    position: absolute;
+    top: 155px;
+}
+
+#aboutDV
+{
+    margin-top: 150px;
+}
+
+.card
+{
+    opacity: 0.75;
+    border: none;
+    -moz-box-shadow: 0px 0px 15px 0px #333333; 
+	-webkit-box-shadow: 0px 0px 15px 0px #333333; 
+	box-shadow: 0px 0px 15px 0px #333333; 
+}
+
+.card-title
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a
+{
+    color: rgb(119, 102, 102);
+}
+
+.social-facebook:hover i
+{
+    color: #4267B2;
+}
+
+.social-twitter:hover i
+{
+    color: #1DA1F2;
+}
+
+.social-instagram:hover i
+{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-linkedin:hover i
+{
+    color: #0A66C2;
+}
+
+.social-whatsapp:hover i
+{
+    color: #25d366;
+}
